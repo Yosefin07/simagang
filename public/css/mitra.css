@@ -1,0 +1,20 @@
+ul.dropdown-menu.dropdown-menu-end.shadow {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid #ddd !important;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 0.15) !important;
+}
+
+ul.dropdown-menu.dropdown-menu-end.shadow .dropdown-item {
+    color: black !important;
+}
+
+ul.dropdown-menu.dropdown-menu-end.shadow .dropdown-item:hover {
+    background-color: #f1f1f1 !important;
+    color: black !important;
+}
+.sb-sidenav .nav-link:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: #343a40;
+  color: #ffffff;
+}

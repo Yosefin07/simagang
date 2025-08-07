@@ -1,0 +1,90 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background-image {
+  background: url('../img/gambar.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Warna gelap semi transparan */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-form {
+  background: rgba(255, 255, 255, 0.15); /* Lebih transparan */
+  backdrop-filter: blur(10px); /* Blur latar belakang */
+  -webkit-backdrop-filter: blur(10px); /* Untuk Safari */
+  padding: 30px 25px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  color: #fff; /* Biar kontras karena background transparan */
+}
+
+.logo-register {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.register-form h3 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.register-form input,
+.register-form select {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  color: #000;
+}
+
+.register-form input::placeholder {
+  color: #333;
+}
+
+.btn-custom-green {
+  background-color: #1d3f71;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.btn-custom-green:hover {
+  background-color: #4a148c;
+}
+
+.text-center.forget {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .register-form {
+    margin: 20px;
+    width:90%;
+}
+}
